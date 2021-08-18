@@ -1,0 +1,11 @@
+@-moz-document regexp("https://www.google.*q=.*&tbm=lcl.*") {
+iframe,html[stylus-iframe="https://www.google.be"],html[stylus-iframe="https://www.google.be"] > * {
+	visibility:hidden !important;
+	display:none !important;
+	colord:unset !important;
+	background:unset !important;
+	background-color:unset !important;
+}
+
+/* html > *:hover {-webkit-filter: invert(90%);color:hsl(120,120,100,5);background-color: hsl(120,120,100,5);} */
+}
