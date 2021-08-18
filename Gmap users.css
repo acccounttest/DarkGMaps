@@ -1,0 +1,3 @@
+@-moz-document regexp("https://www.google.*/maps/d/u.*") {
+html > *:hover {-webkit-filter: invert(90%);color:hsl(120,120,100,5);background-color: hsl(120,120,100,5);}
+}
