@@ -1,0 +1,24 @@
+/*Difference with gmap iframe script, this script as all others, does no need to be avoid to be appended in the zzz main script.*/
+
+iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
+    color:inherit !important;
+    background:inherit !important;
+    background-color:inherit !important;
+}
+    /*the Iframe was unecessary there and empty*/
+html[stylus-iframe="https://codesandbox.io"] body iframe,html[stylus-iframe="https://codesandbox.io"] body iframe > * {
+        display:  none !important;
+        visibility: hidden !important;
+        background:inherit !important;
+    background-color:inherit !important;
+}
+
+/*
+WE COULD TRY USE $= and *= etc for avoid domain change and keep matching longer as possible
+*/
+/*
+You can delete more layers, maybe:
+*/
+/*
+all:unset !important;
+*/
