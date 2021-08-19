@@ -11,6 +11,14 @@ https://codesandbox.io/embed/github/googlemaps/js-samples/tree/sample-style-arra
 /*Then you can change the url, the simple URLS does not change but this require much more unreliability and maintenening situation is not sustainble.*/
 
 
+/*
+
+Dont forget for this to works , you have to allow in options of Stylus, the chrome extension, the iframe functionnality, that way the extension tag with a class name every elements needed later like here.
+*/
+
+
+
+
 iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
     color:inherit !important;
     background:inherit !important;
