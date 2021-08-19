@@ -1,5 +1,16 @@
 /*Difference with gmap iframe script, this script as all others, does no need to be avoid to be appended in the zzz main script.*/
 
+/*Visit this site, wait it load the map, this can take up to 30 sec depending your system, you should notice it, all load, less in dark:*/
+
+
+/*
+https://codesandbox.io/embed/github/googlemaps/js-samples/tree/sample-style-array
+*/
+
+
+/*Then you can change the url, the simple URLS does not change but this require much more unreliability and maintenening situation is not sustainble.*/
+
+
 iframe[src="https://0l6dh.sse.codesandbox.io"],html[stylus-iframe="https://codesandbox.io"],html[stylus-iframe="https://codesandbox.io"] body{
     color:inherit !important;
     background:inherit !important;
