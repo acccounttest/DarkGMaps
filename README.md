@@ -23,11 +23,11 @@ The content of the script is very limited since we use a first to any destinatio
 Most of the work about gmaps and other google domains has been updated more in this project than current, or you can ignore these updates and paste the same code parts into the gmaps script(s) only.
 
 There is a gmap CSS file content for each domain or URL scheme composition that varies, the different themes are all made in different compatibility ways, it could be because:
-1. - The country is not the same and requires other values.
-1. - The URL scheme is inappropriate, even for the same countries.
-1. - The implemented frame is not actually viewable with the same script or not, with the same it is overwritten(one example below)
-1. - The URL service default values are not supported by this main global color conversion and/or the domain is not recognized...
-1. - ...
+ - 1. The country is not the same and requires other values.
+ - 1. The URL scheme is inappropriate, even for the same countries.
+ - 1. The implemented frame is not actually viewable with the same script or not, with the same it is overwritten(one example below)
+ - 1. The URL service default values are not supported by this main global color conversion and/or the domain is not recognized...
+ - 1. ...
 
 
 # Codesandbox and Gmaps in it
