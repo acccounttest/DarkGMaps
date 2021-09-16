@@ -1,3 +1,4 @@
-@-moz-document regexp("https://www.google.*/maps/@.*"), regexp("https://www.google.*/maps/place/.*"), regexp("https://www.google.*/maps/search/.*") {
+@-moz-document regexp("https://www.google.*/maps/@.*"), regexp("https://www.google.*/maps/place/.*"), regexp("https://www.google.*/maps/search/.*"), regexp("https://www.google.*tbm=lcl.*") {
 html:hover {-webkit-filter: invert(90%);color:darkblue;background-color: lightblue;}
+
 }
