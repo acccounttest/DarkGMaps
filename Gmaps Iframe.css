@@ -1,4 +1,4 @@
-@-moz-document regexp("https://www.google.*q=.*&tbm=lcl.*") {
+@-moz-document regexp("https://www.google.*q=.*tbm=lcl.*") {
 iframe,html[stylus-iframe="https://www.google.be"],html[stylus-iframe="https://www.google.be"] > * {
 	visibility:hidden !important;
 	display:none !important;
