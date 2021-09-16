@@ -89,7 +89,7 @@ Important to exclude some gmaps urls from zzz script for the first time, add:
 
 `|.*google.*/maps/d/u.*` in the header part, not in Gmaps script.
 
-#Gsearch Columns
+# Gsearch Columns
 
 _________________
 It's too complicated to maintain regex with theses scripts.
