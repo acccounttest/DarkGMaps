@@ -10,7 +10,7 @@ _________________
 
 This project is one of the continuity of a similar project named DarkChromePastelFluo but for Gmaps services only, eventually later others.
 The only aim is to show maps of the current tab in a more convenient contrast acceptation, without losing the recognition of all elements possible.
-
+Recently, in a google search page, in my country, i had difficulties to use the mouse pointer in the map, sometimes inaccessible sometimes only darker but visible unlike the cross to open in a new tab the map from the top right is also required to navigate to the usable map.
 
 # DarkChrome userscript affected
 
